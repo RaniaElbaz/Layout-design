@@ -60,7 +60,7 @@ a{
 
 .banner h1{
     line-height: 1;
-    padding-top: 13%;
+    padding-top: 7em;
 }   
 
 .banner p{
@@ -70,11 +70,8 @@ a{
 /*----------------------------------*/
 .box3{
     float: left;
-    width: 30%;
-}
-
-#mid{
-    padding: 0 5%;
+    width: 31.33%;
+    padding: 0 1%;
 }
 
 .box4{
@@ -100,9 +97,9 @@ a{
     color: #0b3545;
 }
 
-.about .icon{
-    padding: 18px 40%;
-    width: 20%;
+.eye{
+    color: #fb9258;
+    font-size: 60px;
 }
 
 /*----------------------------------*/
@@ -141,12 +138,12 @@ a{
     margin: 2% 0;
 }
 
-.service .icon{
+.service .icon-box{
     padding: 18px 40%;
     width: 20%;
 }
 
-.service .icon img{
+.service .icon-box img{
     background-color: #ffffff;
     border: 3px solid #ffffff;
     border-radius: 50%;
@@ -193,4 +190,22 @@ a{
 .footer h3{
     margin: 2% 0;
     color: #fb9258;
+}
+
+/*----------------------------------*/
+
+@media (max-width: 768px) {
+    .box3, .box4{
+        width: 46%;
+        padding: 0 2%;
+        margin-bottom: 15%;
+    }
+}
+
+@media (max-width: 500px) {
+    .box3, .box4{
+        width: 100%;
+        padding: 0;
+        margin-bottom: 15%;
+    }
 }
