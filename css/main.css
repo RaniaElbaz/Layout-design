@@ -2,21 +2,16 @@
     margin: 0%;
     padding: 0;
 }
-
 img{
     width: 100%;
 }
-
 a{
     color: #ffffff;
     text-decoration: none;
 }
-
 .clear{
     clear: both;
 }
-
-/*----------------------------------*/
 .nav{
     background-color: #0b3545;
     padding: 1% 14%;
@@ -24,29 +19,22 @@ a{
     top: 0;
     z-index: 1;
     width: 100%;
-    
 }
-
 .logo{
     float: left;
 }
-
 .links{
     float: left;
     margin-top: 10px;
     margin-left: 3%;
 }
-
 .link-item{
     display: inline-block; 
     margin-right: 10px;
 }
-
 .nav a:hover {
     color: #fb9258;
 }
-
-/*----------------------------------*/
 .banner{
     background-image : url("../img/bg.jpg");
     background-size: cover;
@@ -57,69 +45,53 @@ a{
     text-align: center;
     color: #ffffff;
 }
-
 .banner h1{
     line-height: 1;
     padding-top: 7em;
 }   
-
 .banner p{
     line-height: 1;
-}   
-
-/*----------------------------------*/
+}
 .box3{
     float: left;
     width: 31.33%;
     padding: 0 1%;
 }
-
 .box4{
     float: left;
     width: 21%;
     padding: 0 2%;
 }
-
-/*----------------------------------*/
 .about{
     padding: 5% 14%;
     background-color: #ffffff;
     text-align: center;
 }
-
 .about h2{
     margin: 4% 0;
     color: #0b3545;
 }
-
 .about h3{
     margin: 2% 0;
     color: #0b3545;
 }
-
 .eye{
     color: #fb9258;
     font-size: 60px;
 }
-
-/*----------------------------------*/
 .project{
     padding: 5% 14%;
     background-color: #f4f4f4;
 }
-
 .project h2{
     color: #57b4a1;
     margin: 4% 0;
     text-align: center;
 }
-
 .project h3{
     color: #57b4a1;
     margin: 2% 0;
 }
-
-/*----------------------------------*/
 .service{
     padding: 5% 14%;
     color: white;
@@ -129,71 +101,54 @@ a{
     background-size: cover, cover;
     text-align: center;
 }
-
 .service h2{
     margin: 4% 0;
 }
-
 .service h3{
     margin: 2% 0;
 }
-
 .service .icon-box{
     padding: 18px 40%;
     width: 20%;
 }
-
 .service .icon-box img{
     background-color: #ffffff;
     border: 3px solid #ffffff;
     border-radius: 50%;
 }
-
-/*----------------------------------*/
 .review{
     padding: 5% 14%;
 }
-
 .review h2{
     color: #00264d;
     margin: 4% 0;
     text-align: center;
 }
-
 .review h3{
     color: #0b3545;
     margin: 2% 0;
 }
-
 .review h4{
     color: #57b4a1;
     margin: 2% 0;
 }
-
-/*----------------------------------*/
 .footer{
     padding: 5% 14%;
     background-color: #0b3545;
     color: #ffffff;
 }
-
 .sc-icon{
     float: left;
     width: 20%;
     padding: 5%;
 }
-
 .footer ul{
     list-style-type: none;
 }
-
 .footer h3{
     margin: 2% 0;
     color: #fb9258;
 }
-
-/*----------------------------------*/
-
 @media (max-width: 768px) {
     .box3, .box4{
         width: 46%;
@@ -201,7 +156,6 @@ a{
         margin-bottom: 15%;
     }
 }
-
 @media (max-width: 500px) {
     .box3, .box4{
         width: 100%;
